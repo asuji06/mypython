@@ -1,0 +1,8 @@
+num_students = int(input("นักเรียนกี่คน: "))
+total = 0 
+
+for i in range(num_students):
+    score = int(input(f"กรุณาป้อนคะแนนนักเรียนคนที่ {i+1}: "))
+    total += score
+
+print(f"ผลรวมคะแนนทั้งหมดคือ: {total}")
