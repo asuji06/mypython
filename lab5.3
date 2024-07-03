@@ -1,0 +1,11 @@
+#bmi = น้ำหนัก / ส่วนสูง(m)**2
+#input = น้ำหนัก, ส่วนสูง
+#process สูตรหา bmi
+#output = bmi
+def bmi(kg, cm):
+    bmi = kg/(cm/100)**2
+    return bmi
+
+kg = int(input("น้ำหนัก "))
+cm = int(input("ส่วนสูง "))
+print("bmi %.2f" % bmi(kg, cm))
